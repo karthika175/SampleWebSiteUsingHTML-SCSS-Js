@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walt Messy Automation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer src="switch_page.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="tekion">
+        <ion-icon name="apps-outline" class="icon"></ion-icon>
+        <img src="tekion.png" class="tekion-img">
+        <div class="header_split">
+          <div class="header_left-split">
+            <select name="drop" class="drop">
+              <option value="Services">Services</option>
+              <option value="basic">Basic Detail</option>
+              <option value="implementation">Implementation Detail</option>
+              <option value="tekion-team">Tekion Team</option>
+              <option value="dealer">Dealer Contact</option>
+            </select>
+            <input type="text" id="search" placeholder="Search.." class="search-input">
+          </div>
+          <div class="header_right-split">
+            <a href=""><ion-icon name="notifications-outline"></ion-icon></a>
+            <a href=""><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
+            <a href=""><ion-icon name="settings-outline"></ion-icon></a>
+            <a href=""><div class="setting-icon"></div></a>
+            <p class="pm">PM</p>
+            <select name="login" class="login">
+              <option value="">Pulikit Mittal</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <div class="sub-container">
+        <nav class="side-bar">
+          <ul class="items">
+            <li class="item"><a href="">T</li> </a>
+            <li class="item"><a href="">OR</li></a>
+            <li class="item"><a href="">ST</li></a>
+            <li class="item"><a href="">SK</li></a>
+            <li class="item"><a href="">SP</li></a>
+            <li class="item"><a href="">AM</li></a>
+          </ul>
+        </nav>
+        <div class="wrapper">
+          <section class="head">
+            <div class="top-items">
+              <div class="walt-messy">
+                <ion-icon name="chevron-back-outline" class="arrow"></ion-icon>
+                <div class="profile">
+                  <h1> Walt Messy Automative </h1>
+                  <p class="manager">Account manager: <span id="managerName"></span> </p>
+                </div>
+                <div class="status">
+                  <div class="profile-content">
+                    <p class="upper-one">Overall Statement <ion-icon  class="innerIcon" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="overall">
+                      <i class="fa fa-circle" id="circle"> </i> 
+                    </p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Net Promoter Score </p>
+                    <p class="lower-one" id="score"></p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Support CSAT <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="csat"></p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Recent Visit <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="recent"> <ion-icon name="pencil-outline"></ion-icon>
+                    </p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Next Visit <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="next">  <ion-icon name="pencil-outline"></ion-icon>
+                    </p>
+                  </div>
+                  <div class="page-jump">
+                    <ion-icon name="chevron-back-outline" class="arrow"></ion-icon>
+                    <p class="pages">
+                      <input type="text" name="page_no" placeholder="1" style="width: 1rem; height: 1rem;"> / 5
+                    </p>
+                    <ion-icon name="chevron-forward-outline" class="arrow"></ion-icon>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs">
+                <a href="#empty" id="dash" class="tab" onclick="change('account', 'dash')">Dashboard</a>
+                <a href="#empty" id="touch" class="tab" onclick="change('account' ,'touch')">Live User Sentiment</a>
+                <a href="#empty" id="live" class="tab" onclick="change('account', 'live')">TouchPoint</a>
+                <a href="#account" id="acc" class="tab" onclick="account('account', 'acc')">Account</a>
+                <a href="#empty" id="product" class="tab" onclick="change('account', 'product')">Product</a>
+                <a href="#empty" id="tickets" class="tab" onclick="change('account','tickets')">Tickets</a>
+                <a href="#empty" id="goal" class="tab" onclick="change('account', 'goal')">Goal</a>
+              </div>
+            </div>
+          </section>
+          <div class="main-content" id="account">
+            <aside>
+              <ul class="list" >
+                <li id="basicDetail_link">
+                  <a href="#basicDetail" >Basic Details</a>
+                </li>
+                <li id="ImplemenationDetail_link">
+                  <a href="#ImplemenationDetail">Implementation Details</a>
+                </li>
+                <li id="TekionTeam_link">
+                  <a href="#TekionTeam">Tekion Team</a>
+                </li>
+                <li id="DealerTable_link">
+                  <a href="#DealerTable">Contact Details</a>
+                </li>
+              </ul>
+            </aside>
+            <article class="card-container" id="cardContain">
+              <div class="card" id="basicDetail">
+                <div class="card-head">
+                  <h2 class="title">
+                    <ion-icon name="school-outline"></ion-icon>
+                    <span class="title-pad"> Basic Details </span>
+                  </h2>
+                  <span class="corner-icon">
+                    <ion-icon name="pencil-outline"></ion-icon>
+                  </span>
+                </div>
+                <div class="inner_table" id="basic">
+                </div>
+              </div>
+              <div class="card" id="ImplemenationDetail">
+                <div class="card-head">
+                  <h2 class="title">
+                    <ion-icon name="build-outline"></ion-icon>
+                    <span class="title-pad">Implementation Details </span>
+                  </h2>
+                  <span class="corner-icon">
+                    <ion-icon name="pencil-outline"></ion-icon>
+                  </span>
+                </div>
+                <div class="inner_table" id="impli">
+                  
+                </div>
+              </div>
+              <div class="card" id="TekionTeam">
+                <div class="card-head">
+                  <h2 class="title">
+                    <i class="fa fa-group"></i>
+                    <span class="title-pad">Tekion Team</span>
+                  </h2>
+                  <span class="corner-icon">
+                    <ion-icon name="pencil-outline"></ion-icon>
+                  </span>
+                </div>
+                <div class="inner_table" id="tekion">
+                  <!-- <table class="dealer_tekion" >
+                    
+                  </table> -->
+                </div>
+              </div>
+              <div class="card" id="DealerTable">
+                <div class="card-head">
+                  <h2 class="title">
+                    <p><ion-icon name="call-outline"></ion-icon></p>
+                    <span class="title-pad">Dealer contanct </span>
+                  </h2>
+                  <span class="corner-icon">
+                    <ion-icon name="pencil-outline"></ion-icon>
+                  </span>
+                </div>
+                <div class="inner_table" id="deal">
+                 
+                </div>
+              </div>
+            </article>
+          </div>
+          <div id="empty">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+     <script type="module" src="function.js"></script>
+     <script type="module" src="call.js"></script>
+     <script src="../lib/moment/moment.min.js"></script>
+    </body>
+</html>

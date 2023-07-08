@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    top: 0;
+    position: sticky;
+    padding: 0.6rem;
+    justify-content: space-between;
+    background-color: #70b8f7;
+}
+h1{
+    font-size: 1.3rem;
+}
+.cart{
+    font-size: 1rem;
+}
+.cart_item{
+    width: 5rem;
+    height: 5rem;
+    
+}

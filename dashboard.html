@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walt Messy Automation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="tekion">
+        <ion-icon name="apps-outline" class="icon"></ion-icon>
+        <img src="tekion.png" class="tekion-img">
+        <div class="header_split">
+          <div class="header_left-split">
+            <select name="drop" class="drop">
+              <option value="Services">Services</option>
+              <option value="basic">Basic Detail</option>
+              <option value="implementation">Implementation Detail</option>
+              <option value="tekion-team">Tekion Team</option>
+              <option value="dealer">Dealer Contact</option>
+            </select>
+            <input type="text" id="search" placeholder="Search.." class="search-input">
+          </div>
+          <div class="header_right-split">
+            <a href=""><ion-icon name="notifications-outline"></ion-icon></a>
+            <a href=""><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
+            <a href=""><ion-icon name="settings-outline"></ion-icon></a>
+            <a href=""><div class="setting-icon"></div></a>
+            <p class="pm">PM</p>
+            <select name="login" class="login">
+              <option value="">Pulikit Mittal</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <div class="sub-container">
+        <nav class="side-bar">
+          <ul class="items">
+            <li class="item"><a href="">T</li> </a>
+            <li class="item"><a href="">OR</li></a>
+            <li class="item"><a href="">ST</li></a>
+            <li class="item"><a href="">SK</li></a>
+            <li class="item"><a href="">SP</li></a>
+            <li class="item"><a href="">AM</li></a>
+          </ul>
+        </nav>
+        <div class="wrapper">
+          <section class="head">
+            <div class="top-items">
+              <div class="walt-messy">
+                <ion-icon name="chevron-back-outline" class="arrow"></ion-icon>
+                <div class="profile">
+                  <h1> Walt Messy Automative </h1>
+                  <p class="manager">Account manager: <span id="managerName"></span> </p>
+                </div>
+                <div class="status">
+                  <div class="profile-content">
+                    <p class="upper-one">Overall Statement <ion-icon  class="innerIcon" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one">
+                      <i class="fa fa-circle" style="color:#7dd064"> </i> <span id="overall"></span> 
+                    </p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Net Promoter Score </p>
+                    <p class="lower-one" id="score"></p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Support CSAT <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="csat"></p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Recent Visit <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="recent"> <ion-icon name="pencil-outline"></ion-icon>
+                    </p>
+                  </div>
+                  <div class="profile-content">
+                    <p class="upper-one">Next Visit <ion-icon class="alertCircle" name="alert-circle-outline"></ion-icon>
+                    </p>
+                    <p class="lower-one" id="next">  <ion-icon name="pencil-outline"></ion-icon>
+                    </p>
+                  </div>
+                  <div class="page-jump">
+                    <ion-icon name="chevron-back-outline" class="arrow"></ion-icon>
+                    <p class="pages">
+                      <input type="text" name="page_no" placeholder="1" style="width: 1rem; height: 1rem;"> / 5
+                    </p>
+                    <ion-icon name="chevron-forward-outline" class="arrow"></ion-icon>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs">
+                <a href="" id="dash" class="tab">Dashboard</a>
+                <a href="" id="live" class="tab">Live User Sentiment</a>
+                <a href="" id="touch" class="tab">TouchPoint</a>
+                <a href="" id="account" class="tab">Account</a>
+                <a href="" id="product" class="tab">Product</a>
+                <a href="" id="tickets" class="tab">Tickets</a>
+                <a href="" id="goal" class="tab">Goal</a>
+              </div>
+            </div>
+          </section>
+          <div class="main-content">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+     <script type="module" src="index.js"></script>
+     <script type="module" src="call.js"></script>
+    </body>
+</html>

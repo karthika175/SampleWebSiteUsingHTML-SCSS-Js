@@ -1,0 +1,44 @@
+$fontFam:Arial, Helvetica, sans-serif;
+$headColor:#eceef0;
+$headBg: #3e4858;
+@mixin flexProperty($justify: flex-start, $align: normal){
+    display: flex;
+    justify-content: $justify;
+    align-items:$align;
+}
+@mixin position($top, $pos){
+    top: $top;
+    position: $pos;
+}
+@mixin widthHeight($height, $width){
+    width: $width;
+    height: $height;
+}
+@mixin fontPadMargin($size, $pad, $mar){
+    font-size: $size;
+    padding: $pad;
+    margin: $mar;
+}
+@mixin borderPadAlign($bottom, $pad, $align){
+    border-bottom: $bottom;
+    padding: $pad;
+    text-align: $align;
+}
+@mixin backgroundOverflow($bg, $flow){
+    background-color: $bg;
+    overflow: $flow;
+}
+@mixin borderRightBg($border, $bg){
+    border-right: $border;
+    background-color: $bg;
+}
+@mixin padColor($color, $padding){
+    color: $color;
+    padding: $padding;
+}
+@mixin tableProperty($collapse, $width, $layout, $bottom){
+    border-collapse: $collapse;
+    width: $width;
+    table-layout:$layout;
+    border-bottom: $bottom;
+}

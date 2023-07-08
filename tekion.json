@@ -1,0 +1,56 @@
+{
+    "head":{
+        "team": "Team",
+        "position": "Position",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "content" : 
+    [
+        {
+            "name":"Partner Success",
+            "Position":"Partner Success Manager(PSM)",
+            "Name":"Johnly Velasquez",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        },
+        {
+            "name":"Partner Success",
+            "Position":"Senior Manager,Partner Success",
+            "Name":"Dave Janisheski",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        },
+        {
+            "name":"Implementation",
+            "Position":"Senior Manager,Implementation(SMI)",
+            "Name":"Jim McGuiness",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        },
+        {
+            "name":"Data Conversion",
+            "Position":"Fixed Ops Lead",
+            "Name":"Brian Garde",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        },
+        {
+            "name":"Hypercare Support",
+            "Position":"Hypercare Fixed",
+            "Name":"Johnly Velasquez",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        },
+        {
+            "name":"Product Specialist",
+            "Position":"Accounting Specialist",
+            "Name":"Jim McGuiness",
+            "Phone":"(201)397-3091",
+            "email":"johnly.velazquez@bmwna.com"
+        }
+    
+    ]
+}
+

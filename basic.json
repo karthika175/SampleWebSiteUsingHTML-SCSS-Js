@@ -1,0 +1,51 @@
+{
+    "table1_heading":{
+        "name": "Name",
+        "oem": "OEM",
+        "email": "Email",
+        "phone": "Phone",
+        "statusProvince": "Status Province",
+        "retailAddress": "Retail Address",
+        "city":"City",
+        "stateProvince":"State Province",
+        "country": "Country"
+            
+    },
+    "table2_heading":
+    {
+        "name":"Name",
+        "authorizedSigner": "Authorized Signer",
+        "makes": "Makes",
+        "tekionID": "Tekion ID",
+        "gMBAC/NONGMID": "GM BAC / NON GM ID",
+        "tenantID": "166",
+        "dealerID":"1079",
+        "priorDMS":"Dealtrack",
+        "zipcode": "46072"
+    },
+    "table1_content": {
+            
+            "name":"Addison GM",
+            "oem": "Jeff Jackson",
+            "email": "jeffjackson@gmail.com",
+            "phone": "(765) 415-4104",
+            "statusProvince": "IN",
+            "retailAddress": "6002 W Field Dr",
+            "city":"Tipton",
+            "stateProvince":"IN",
+            "country": "United States"
+        },
+    "table2_content": 
+            {
+                
+                "name":"Addison on Erin Mills",
+                "authorizedSigner": "General Motors",
+                "makes": "Dodge,Jeep,RAM",
+                "tekionID": "9000478",
+                "gMBAC/NONGMID": "IN",
+                "tenantID": "166",
+                "dealerID":"1079",
+                "priorDMS":"Dealtrack",
+                "zipcode": "46072"
+            }
+}

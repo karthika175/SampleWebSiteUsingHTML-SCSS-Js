@@ -1,0 +1,54 @@
+
+
+{
+
+        "head":{
+            "team": "Team",
+            "position": "Position",
+            "name": "Name",
+            "phone": "Phone",
+            "email": "Email",
+            "icon": "Icon"
+        },
+        "content" : [
+            {
+                "team": "Partner Success",
+                "position": "Parther Success Manager",
+                "name": "Jonly",
+                "phone": "(201) 391-278",
+                "email": "Jonly@gmail.com",
+                "icon": "..."
+        
+            },
+            {
+                
+                "team": "Partner Success",
+                "position": "Parther Success Manager",
+                "name": "Jonly",
+                "phone": "(201) 391-278",
+                "email": "Jonly@gmail.com",
+                "icon": "..."
+
+            },
+            {
+               
+                "team": "Parther Success",
+                "position": "Parther Success Manager",
+                "name": "Jonly",
+                "phone": "(201) 391-278",
+                "email": "Jonly@gmail.com",
+                "icon": "..."
+            },
+            {
+                
+                "team": "Parther Success",
+                "position": "Parther Success Manager",
+                "name": "Jonly",
+                "phone": "(201) 391-278",
+                "email": "Jonly@gmail.com",
+                "icon": "..."
+            }
+        ]
+           
+        
+}

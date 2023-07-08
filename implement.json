@@ -1,0 +1,27 @@
+{
+    "table1_heading":
+    
+        {
+            "productType": "Product Type",
+            "launchDate": "Launch Date"
+        },
+    "table2_heading":
+    
+        {
+           
+            "handoffDate": "Handoff Date"
+        },
+    "table1_content":
+    
+        {
+            "productType": "ARC,Analytic,CRM,DSE",
+            "LaunchDate": "05/02/2021"
+        },
+    "table2_content":
+    
+        {
+           
+            "handoffDate": "05/02/2021"
+        }
+    
+}
